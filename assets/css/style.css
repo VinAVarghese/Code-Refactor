@@ -1,3 +1,4 @@
+/* DOCUMENT STYLING */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,28 @@ body {
     background-color: #d9dcd6;
 }
 
+/* LINK AND PARAGRAPH STYLING */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* FLOAT STYLING */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* HEADER STYLING */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +47,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* NAVAGATIONAL STYLING WITHIN HEADER */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +65,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* LARGE BACKGROUND IMAGE */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +75,14 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* MAIN WITH THREE SECTIONS */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* SEO section 1 */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -93,6 +101,7 @@ main {
     font-size: 36px;
 }
 
+/* online-reputation-management section 2 */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -105,11 +114,13 @@ main {
 .online-reputation-management img {
     max-height: 200px;
 }
+
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* social-media-marketing section 3 */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -128,6 +139,7 @@ main {
     font-size: 36px;
 }
 
+/* ASIDE WITH THREE SECTIONS */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -139,6 +151,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* lead-generation section 1 */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -155,6 +168,7 @@ aside {
     max-width: 150px;
 }
 
+/* brand-awareness section 2 */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -171,6 +185,7 @@ aside {
     max-width: 150px;
 }
 
+/* cost-management section 3 */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -187,6 +202,7 @@ aside {
     max-width: 150px;
 }
 
+/* FOOTER STYLING */
 footer {
     padding: 30px;
     clear: both;
